@@ -1,0 +1,374 @@
+/*
+Theme Name: TimLaser.net Theme
+Theme URI: http://www.timlaser.net
+Description: Theme pour le site de TimLaser
+Version: 08 Feb, 12:39
+Author: Mo
+Author URI: http://www.rtnp.org
+
+*/
+
+html>body #content {
+	height: auto;
+	min-height: 580px;
+}
+
+body{
+	font-family: verdana;
+	font-size: 95%;
+	line-height: 115%;
+	background-color: #f2e9be;
+	text-align: center;
+}
+
+body,td,th {
+	color: #807b64;
+}
+
+
+
+a, a:link {
+	padding: 1px;
+	color: #bcb17f;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bcb17f;
+	text-decoration: underline;
+	;
+}
+
+h1 {
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 190%;
+	padding-top: .1em;
+	padding-bottom: .5em;
+}
+
+
+h2 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+h3 {
+	font-family: georgia;
+	font-size: 130%;
+}
+
+
+h4 {
+	font-size: 105%;
+}
+
+p {
+	font-size: 80%;
+	margin-bottom:1em;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+}
+
+acronym, abbr
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+}
+
+a img {
+	border: none;
+}
+
+div.separator {
+height:3px;
+background: #807b64;
+width:100%;
+}
+
+#hd{
+	
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+#site_desc {
+float:right;
+width:300px;
+font-size:0.7em;
+}
+
+#hd h1{
+	font-size: 290%;
+	color: #807b64;
+
+}
+
+#hd h1 a{
+	text-decoration: none;
+	color: #807b64;
+}
+
+h3 a:link, h3 a:hover, h3 a:visited{
+	color: #807b64;
+}
+
+.item {
+	padding: 10px;
+	
+	background-image: url(images/bg_overlay.png); 
+	background-repeat: repeat;
+	text-align:left;
+	border: 0px #1A1A1A;
+	margin-bottom: 1em;
+	;
+	
+}
+
+.item ul {
+	list-style-type: disc;
+	padding-left: 15px;
+	margin-left: 10px;
+	font-size: 80%;
+}
+
+
+.item ol{
+	list-style-type: decimal;
+	padding-left: 15px;
+	margin-left: 10px;
+	font-size: 80%;
+}
+
+.itemhead{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom:10px;
+	border-bottom: 1px solid;
+}
+
+
+.chronodata {
+	display: inline;
+	text-align: right;
+	margin-left: 2em;
+	font-size: 80%;
+}
+
+
+.itemhead h3{
+	display: inline;
+}
+
+
+input{
+	font-size: 80%;
+	background-color: #d7cfa9;
+	color: #393939;
+	border: 1px solid;
+	margin-right: 5px;
+}
+
+.metadata{
+	line-height: 190%;
+	font-size: 75%;
+}
+
+.metadata a:link, .metadata a:hover, .metadata a:visited{
+	color: #bcb17f;
+}
+
+.tags, .catagory {
+
+	display: block;
+
+}
+
+.commentlist p {
+	clear: both;
+	font-size: 95%;
+}
+
+
+cite{
+	font-size: 95%;
+}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 1px solid;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+
+.commentmetadata {
+	font-size: 80%;
+	float: right;
+
+}
+.commentlist {
+	margin-top: 5px;
+}
+.commentlist li {
+	padding: 2px;
+	border-top: 1px solid #1A1A1A;
+}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #807b64;
+}
+
+.navigation a:link, .navigation a:hover, .navigation a:visited{
+	color: #807b64;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left
+}
+
+
+#secondary, #third{
+	background-color:  ;
+	background-image: url(/); 
+	background-repeat: repeat;
+	text-align:left;
+	padding: 0px;
+	border: 0px #1A1A1A;
+	SP_GRADIENT
+}
+
+#secondary h4, #third h4{
+	color: #807b64;
+	font-family: Trebuchet MS, arial, sans-serif;
+	margin-top: 5px;
+	padding: 3px;
+
+}
+
+#secondary p, #third p{
+		padding: 3px;
+		font-size: 70%;
+}
+
+#searchform {
+	clear: both;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	padding: 3px;
+}
+
+#third {
+	margin-left: 9px;
+}
+
+#menu {padding:0; border:0px solid #fff }
+#menu ul {list-style:none; margin:0; padding:0; font-size:85%; }
+#menu ul li { padding:0; margin:0; border-bottom:0px #bcb17f; }
+#menu ul li a { display:block; padding:4px 4px 4px 10px; text-decoration:none; color: #bcb17f; }
+#menu ul li a:hover { color:myheadttcolor; background: #d7cfa9; color: #393939; }
+
+
+li .categories, li .linkcat, li .pagenav {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.yui-nav{
+	margin-bottom: -1px;
+}
+
+.yui-navset .yui-nav a:hover {
+	background-color: #d7cfa9;
+	color: #393939;
+}
+
+.yui-navset .yui-nav li a {
+    background-color: #000000;
+	background-image: url(images/bg_overlay.png); 
+	background-repeat: repeat;
+	border-bottom: 0px;
+	color: #bcb17f;
+	padding: .3em .7em .3em .7em;
+	text-decoration:none;
+	font-size: 85%;
+}
+
+
+
+#wp-calendar {
+	empty-cells: show;
+	font-size: 90%;
+	margin: 0;
+	width: 90%;
+	padding: 3px;
+}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+}
+
+
+#wp-calendar td {
+	color: #bcb17f;
+	font-size: 70%;
+	letter-spacing: normal;
+	padding: 2px 0;
+	text-align: center;
+}
+
+
+#wp-calendar #today {
+	background: ;
+	color: #c6b67c;
+}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+}
+
+#ft {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #807b64;
+}
+
+#ft a:link, #ft a:hover, #ft a:visited{
+	color: #807b64;
+}
